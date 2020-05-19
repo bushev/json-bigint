@@ -1,0 +1,21 @@
+{
+  "name": "bigint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "node --max_old_space_size=4096 ./node_modules/.bin/webpack",
+    "reproduce": "node ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "14.0.1",
+    "json-bigint": "0.3.0",
+    "ts-loader": "7.0.4",
+    "ts-node": "8.10.1",
+    "typescript": "3.9.2",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  }
+}
